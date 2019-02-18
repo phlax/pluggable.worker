@@ -1,0 +1,8 @@
+{"worker": {
+     "installs": [
+         "-e git+ssh://git@git.synca.io:2222/git-server/repos/pluggable.worker#egg=pluggable.worker",
+         "-e git+ssh://git@git.synca.io:2222/git-server/repos/aioworker#egg=aioworker",
+         "-e git+ssh://git@git.synca.io:2222/git-server/repos/aiocouchdb#egg=aiocouchdb"
+     ]
+}
+}
